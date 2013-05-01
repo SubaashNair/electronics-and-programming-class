@@ -1,0 +1,7 @@
+Lesson 7
+=========
+
+Goal: Understand wireless communication between Arduino with Xbee radios
+(demo). (20 minutes)
+
+Goal: Continue project build.

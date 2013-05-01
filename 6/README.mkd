@@ -1,0 +1,11 @@
+Lesson 6
+========
+
+Goal: Learn the basics of designing a breadboard circuit in Fritzing.
+
+Goal: Decide on a final project idea and double-check with instructor.
+
+Goal: Use Fritzing to start designing the project, then begin implementation.
+
+TODO seed with a variety of project ideas, or parts of project ideas that
+combine the things learned.

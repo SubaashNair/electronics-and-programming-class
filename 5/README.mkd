@@ -1,0 +1,18 @@
+Lesson 5
+=========
+
+Goal: Add a DC motor to another PWM pin and make something move.
+
+The students should understand how to drive a motor, and possible how to use
+the built-in Arduino libraries.
+
+Goal: Test all remaining sensors - photocell, whatever we didn’t get to.
+
+Optional Goal: Add a servo to another PWM pin to have more precise control over
+physical movement.
+
+Bonus Goal: Create a 6-LED meter using a shift register and an analog input sensor.
+
+Bonus Goal: Add a shift register to the board along with 8 LEDs. Write a function to
+light up x number of LEDs.
+
