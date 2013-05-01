@@ -8,23 +8,15 @@ void setup() {
     pinMode(BLUE, OUTPUT);
 }
 
-
-/** Dims an LED on the pin up to max brightness, then back down to off.
- */
-void dimLED(int pin) {
-    for(int i = 0; i <= 255; i++) {
-        analogWrite(pin, i);
-        delay(1);
-    }
-
-    for(int i = 255; i > 0; i--) {
-        analogWrite(pin, i);
-        delay(1);
-    }
+void flashColor(int red, int green, int blue) {
+    analogWrite(RED, red);
+    analogWrite(GREEN, green);
+    analogWrite(BLUE, blue);
+    delay(50);
 }
 
 void loop() {
-    dimLED(BLUE);
-    dimLED(RED);
-    dimLED(GREEN);
+    flashColor(100, 150, 255);
+    flashColor(200, 25, 100);
+    flashColor(187, 201, 17);
 }
