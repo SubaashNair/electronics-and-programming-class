@@ -1,0 +1,23 @@
+Lesson 4
+=========
+
+Goal: Display the value of the previous added analog sensor over the serial
+console.
+
+The students should understand how to log messages to the console to help debug
+their programs.
+
+Goal: Control the brightness of an LED or the color of an RGB LED based on an
+analog input.
+
+They should understand how to map from inputs to outputs in code using variables
+(log messages will require storing the input values before writing out).
+
+Goal: Enable the LED once a force sensor or potentiometer passes a certain
+threshold.
+
+The students should understand how an analog input differs from a digital input,
+and the versatility of an analog input (can use multiple types of sensors). They
+should understand why the range of an analog input is 0 - 255.
+
+Goal: Create a 6-LED meter using a shift register and an analog input sensor.

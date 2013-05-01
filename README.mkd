@@ -1,0 +1,19 @@
+Electronics and Programming Enrichment
+======================================
+
+## Sources
+
+* [Javascript Codeacademy](http://www.codecademy.com/tracks/javascript)
+* [Arduino comic](http://playground.arduino.cc/uploads/Main/arduino_comic_v0004.pdf)
+* [Arduino booklet](http://hci.rwth-aachen.de/arduino)
+* [Adafruit's learning resources](http://learn.adafruit.com/category/learn-arduino)
+
+## Software Required
+
+* [Arduino](http://arduino.cc/en/main/software)
+* [Fritzing](http://fritzing.org)
+
+## Contributors
+
+* Chris Peplin
+* Emily Van Ark

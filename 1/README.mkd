@@ -1,0 +1,22 @@
+Lesson 1 - Intro to Programming
+=====================
+
+Distribute: Arduino, USB cable
+
+Goal: Run the Arduino IDE, understand the code window and various buttons. Run
+the Blink example code and understand the source code.
+
+After everyone has the Blink example running, move over to the Codeacademy
+introduction to Javascript programming and work up to 4.4. This first section
+will probably require a chunk of time to get any lingering setup issues
+resolved, making sure everyone can run the IDE and program the boards.
+
+Goal: Understand that an Arduino is a tiny computer and it runs code in a very
+similar way to the laptop sitting next to it.
+
+I'd like to draw 2 simple diagrams comparing a laptop with the Arduino, and show
+how they're very similar but with different inputs and outputs. A large part of
+the rest of the enrichment is all about learning how to interact with the
+different I/O interfaces.
+
+Collect: All parts into individual buckets.

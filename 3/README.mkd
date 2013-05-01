@@ -1,0 +1,29 @@
+Lesson 3
+=========
+
+
+Distribute: Breadboard, RGB LED, 4x 220 ohm resistor, push button, 6 jumper
+wires, RGB LED
+
+Goal: Control the brightness of the LED by driving it from a PWM pin.
+
+The students should understand what PWM is, and how that can be used to control
+the brightness of an LED.
+
+Goal: Control the color of an RGB LED.
+
+The students should understand the RGB color space and how to create compound
+colors. They should be able to create a function to make generating colors
+possible without copying magic values for the PWMs around in code.
+
+## Coding Grammar
+
+A few notes on the "grammar" of properly punctuating your Arduino code so that
+the compiler can read it:
+
+* functions use {} to denote their open and close, and the { and } need to pair up
+* statements end with ;
+* ( ) are used to send input to functions
+* capitalization matters a LOT
+* every arduino program has a setup function that runs once and a loop function
+    that runs repeatedly

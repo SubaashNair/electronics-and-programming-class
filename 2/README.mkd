@@ -1,0 +1,33 @@
+Lesson 2
+=========
+
+Distribute: Breadboard, red LED, 220 ohm resistor, 470 ohm resistor (or anything
+nearby), push button, 2 jumper wires
+
+Goal: Connect a breadboard (5v, ground, LED +/-, 220 ohm resistor) and run the
+Blink example on a different pin to flash an external LED.
+
+Adding more hardware into the mix, we can hand out breadboards and explain how
+the pin holes are connected. Adding an LED and modifying the program probably
+won't take long, so I was thinking we would seed the exploration with a few new
+programming concepts (loops to make the light flash differently, the time delay
+function, etc).
+
+Goal: Adjust external LED brightness by changing resistor value.
+
+Goal: Control the previously added LED with a push button.
+
+The students should understand what a digital input is, where they’re located on
+the Arduino, and how to use them in code.
+
+Goal: Flash a pattern on the LED when the button is pressed using a function in
+C outside the main loop().
+
+The students should understand how and why to use functions, and about the
+delay() function.
+
+Bonus Goal: For students that reached the end of this day’s plan quickly, give
+them additional LEDs and buttons to control with more digital outputs.
+
+Collect: Students write names on bottom of breadboard, collect and store in
+classroom. All other parts stored in individual buckets.
