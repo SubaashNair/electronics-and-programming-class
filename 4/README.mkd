@@ -1,17 +1,15 @@
 Lesson 4
 =========
 
-Goal: Display the value of the previous added analog sensor over the serial
-console.
+Goal: Use the serial console to read a message from the Arduino. Send the value
+of a digital input over the Serial console.
 
 The students should understand how to log messages to the console to help debug
 their programs.
 
-Goal: Control the brightness of an LED or the color of an RGB LED based on an
-analog input.
+Goal: Add a potentiometer and send the value over the serial console.
 
-They should understand how to map from inputs to outputs in code using variables
-(log messages will require storing the input values before writing out).
+Goal: Build a force sensor and send its value over the serial console.
 
 Goal: Enable the LED once a force sensor or potentiometer passes a certain
 threshold.
@@ -20,4 +18,43 @@ The students should understand how an analog input differs from a digital input,
 and the versatility of an analog input (can use multiple types of sensors). They
 should understand why the range of an analog input is 0 - 255.
 
-Goal: Create a 6-LED meter using a shift register and an analog input sensor.
+Goal: Control the brightness of an LED or the color of an RGB LED based on an
+analog input (use the map() function).
+
+They should understand how to map from inputs to outputs in code using variables
+(log messages will require storing the input values before writing out).
+
+Goal: Use the force sensor to control brightness and the potentiometer to
+control the color.
+
+Bonus Goal: Create a 6-LED meter using a shift register and an analog input sensor.
+
+Bonus Goal: Add a shift register to the board along with 8 LEDs. Write a function to
+light up x number of LEDs.
+
+## Supplies
+
+* Breadboard from last time, which should have
+    * RGB LED
+    * 4x 220 ohm resistor
+    * push button
+    * 7 jumper wires
+* 1cm square block of conductive foam
+* 2 more jumper wires
+* Potentiometer
+
+## Schedule (for 2 hour session)
+
+1. Setup (10 minutes) - Get laptop and other supplies, download code from
+   previous session.
+1. Programming Challenge (30 minutes)
+    1. Write a code that blinks your RGB LED through a sequence 5 different
+       colors (15 minutes)
+    1. Use a function to make your code much nicer to use and modify (15
+       minutes)
+1. Serial console with digital inputs (15 minutes)
+1. Analog input, test with variable resistor
+1. Break (10 minutes)
+1. Build and test an analog force sensor (20 minutes)
+1. Use your force sensor to control your LED - rest of class
+1. Clean-up - last 10 min
