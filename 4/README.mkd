@@ -9,7 +9,9 @@ their programs.
 
 Goal: Add a potentiometer and send the value over the serial console.
 
-Goal: Build a force sensor and send its value over the serial console.
+Goal: [Build a force
+sensor](http://www.instructables.com/id/How-to-Make-a-Ridiculously-Cheap-Analog-Pressure-S/)
+and send its value over the serial console.
 
 Goal: Enable the LED once a force sensor or potentiometer passes a certain
 threshold.
@@ -34,7 +36,7 @@ control the color.
     * 4x 220 ohm resistor
     * push button
     * 7 jumper wires
-* 1cm square block of conductive foam
+* 1cm square block of static dissipative foam
 * 2 more jumper wires
 * Potentiometer
 
@@ -53,3 +55,7 @@ control the color.
 1. Build and test an analog force sensor (20 minutes)
 1. Use your force sensor to control your LED - rest of class
 1. Clean-up - last 10 min
+
+## Resources
+
+* [Foam force sensor](http://www.instructables.com/id/How-to-Make-a-Ridiculously-Cheap-Analog-Pressure-S/)
