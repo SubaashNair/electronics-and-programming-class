@@ -37,7 +37,9 @@ control the color.
     * push button
     * 7 jumper wires
 * 1cm square block of static dissipative foam
-* 2 more jumper wires
+* 2 more jumper wires (possibly wire cut from spool, need to test if jumper
+  wires are strong enough to punch through foam)
+* 1 10k ohm resistor
 * Potentiometer
 
 ## Schedule (for 2 hour session)
