@@ -1,11 +1,6 @@
 Lesson 5
 =========
 
-Goal: Add a DC motor to another PWM pin and make something move.
-
-The students should understand how to drive a motor, and possible how to use
-the built-in Arduino libraries.
-
 Goal: Test all remaining sensors - photocell, whatever we didn’t get to.
 
 Optional Goal: Add a servo to another PWM pin to have more precise control over
@@ -16,3 +11,36 @@ Bonus Goal: Create a 6-LED meter using a shift register and an analog input sens
 Bonus Goal: Add a shift register to the board along with 8 LEDs. Write a function to
 light up x number of LEDs.
 
+## Supplies
+
+* Breadboard from last time, which should have
+    * RGB LED
+    * 4x 220 ohm resistor
+    * push button
+    * 7 jumper wires
+* 1cm square block of static dissipative foam
+* 2 more jumper wires (possibly wire cut from spool, need to test if jumper
+  wires are strong enough to punch through foam)
+* 1 10k ohm resistor
+* Potentiometer
+
+## Schedule (for 2 hour session)
+
+1. Setup (10 minutes) - Get laptop and other supplies, download code from
+   previous session.
+1. Serial console with digital inputs - fix the problem from last time by
+   connecting button to GND and using pinMode of INPUT_PULLUP. (15 minutes)
+1. Serial console with analog inputs (15 minutes)
+1. Analog input, test with variable resistor - control brightness of LED (20
+   minutes)
+    1. Bonus goal - control blink rate of LED or color hue
+1. Break (10 minutes)
+1. Build and test an analog force sensor, combine with variable resistor to
+   control 2 outputs at once (30 minutes)
+1. Pick one of three other sensors/output devices to try and follow online
+   tutorial:
+   1. Servo, make things move - take servo and 6 jumper wiresjkkkk
+   1. Photocell, detect light
+   1. Shift register, control a large number of LEDs at once:
+      http://learn.adafruit.com/adafruit-arduino-lesson-4-eight-leds
+1. Clean-up - last 10 min

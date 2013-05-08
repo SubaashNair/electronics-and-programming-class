@@ -1,6 +1,11 @@
 Lesson 6
 ========
 
+Goal: Add a DC motor to another PWM pin and make something move.
+
+The students should understand how to drive a motor, and possible how to use
+the built-in Arduino libraries.
+
 Goal: Learn the basics of designing a breadboard circuit in Fritzing.
 
 Goal: Decide on a final project idea and double-check with instructor.
