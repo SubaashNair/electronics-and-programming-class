@@ -31,14 +31,16 @@ control the color.
 
 ## Supplies
 
+* Arduino and USB cable
 * Breadboard from last time, which should have
     * RGB LED
-    * 4x 220 ohm resistor
+    * 3x 220 ohm resistor
     * push button
     * 7 jumper wires
 * 1cm square block of static dissipative foam
-* 2 more jumper wires (possibly wire cut from spool, need to test if jumper
+* 4 more jumper wires (possibly wire cut from spool, need to test if jumper
   wires are strong enough to punch through foam)
+* 3 alligator clip wires
 * 1 10k ohm resistor
 * Potentiometer
 
