@@ -3,14 +3,69 @@ Lesson 6
 
 Goal: Add a DC motor to another PWM pin and make something move.
 
-The students should understand how to drive a motor, and possible how to use
-the built-in Arduino libraries.
+Goal: Add a DC motor to another PWM pin and make something move.
 
-Goal: Learn the basics of designing a breadboard circuit in Fritzing.
+The students should understand how to drive a motor.
 
 Goal: Decide on a final project idea and double-check with instructor.
 
-Goal: Use Fritzing to start designing the project, then begin implementation.
+## Schedule (for 2 hour session)
 
-TODO seed with a variety of project ideas, or parts of project ideas that
-combine the things learned.
+1. Setup (10 minutes) - Get laptop and other supplies, download code from
+   previous session.
+1. Build and test an analog force sensor, combine with variable resistor to
+   control 2 outputs at once (30 minutes)
+1. Final sensor and actuator showcase - servo, photocell - 30 min
+1. Break - 10 min
+1. DC Motors:  making things move - 30 min
+1. Project Brainstorming - remaining time
+1. Clean-up - 10 min
+
+## Project Starter Ideas
+
+Available sensors and input:
+
+* Light sensor (photocell)
+* Variable resistor
+* Pressure sensor
+* Button(s)
+* Input from Serial Monitor (type commands on the computer)
+
+Available actuators:
+
+* DC motor - good for vibration, fast spinning, not very accurate
+* Servo - good for precise control, not continuous rotation
+* RGB LED
+* Green or Red LEDs
+* Bonus items - shift register, to control more LEDs than digital outputs
+
+**Project Ideas**
+
+* Light meter - combined a photocell, a shift register, 4 green and 2 red LEDs
+  to make a meter that displays the amount of light falling on the sensor.
+* Emotional robot - make a robot that responds to what you tell it over the
+  serial monitor by changing its mood lighting and by waving its "arms" (a servo
+  or DC motor with something attached)
+* Morse code sender and receiver - flash morse code on an LED on one Arduino,
+  and read the light level with a photocell on another Arduino to decode the
+  message and print it to the Serial Monitor
+* "pass the light" - when a light sensor detects increased light, turn on an
+  LED. working as a group, hookup a chain of Arduinos to "pass the light" around
+  in a circle.
+* Make a robot that closes its eyes if you shine bright light at it (use a
+  photocell and servo)
+* "Stop the light" game - make a game with a button and LEDs where you have to
+  press the button to stop the light when it is in the middle of a row of 5
+  LEDs. Increase the speed to make it more challenging.
+* Make a scale using the pressure sensor. Output the values to the Serial
+  Monitor, or use a servo to create a physical gauge.
+* Cycle the RGB LED between the colors of the rainbow at the press of a button
+* Build a dimmable lamp - use a variable resistor to control the brightness and
+  a button to turn the lamp on and off.
+* "Color switcher" - send a text command on the Serial Monitor to change the
+  color of an RGB LED
+* Build a gauge with a servo that you control by sending commands on the Serial
+  Monitor
+* A robot arm that presses as you do (use a servo and pressure sensor)
+* Make a unicycle (DC motor and something for a wheel)
+* Control the speed of a fan with a variable resistor
