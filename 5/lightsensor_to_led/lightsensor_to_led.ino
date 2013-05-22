@@ -21,7 +21,7 @@ void loop() {
     // the output of the LED, we need a number between 0 and 255.
     //
     // Map the input values to an output value (0 to 255)
-    int ledValue = map(light, 300, 680, 0, 255);
+    int ledValue = map(light, 190, 400, 0, 255);
     // The "map" function will return a negative value if we go outside of the
     // 440-600 range, and we don't want thing. This will make sure the output
     // value is always positive
