@@ -1,7 +1,63 @@
 Lesson 7
 =========
 
-Goal: Understand wireless communication between Arduino with Xbee radios
-(demo). (20 minutes)
+Goal: Begin project build.
 
-Goal: Continue project build.
+## Design Process
+
+1. Diagram my project:
+    1. What are the key pieces?
+    1. How should they be connected to each other?
+1. Gather your physical materials and set up your Arduino and laptop.
+1. Beginning with just the electronics and programming part of your project,
+    disassemble your breadboard and create a new Arduino program - it should
+    have only the standard setup() and loop() functions.
+1. Add complications step by step:
+    1. Add one component to the breadboard
+    1. Write the code for it
+    1. Test it
+    1. Repeat
+
+## Troubleshooting
+
+Go through this list before asking for help from the teachers:
+
+1. Does my diagram tell me how to arrange my pieces?  How can I make my diagram
+    clearer?
+1. Do I have the physical pieces I need?  Where could I get them?
+1. Is there a Fritzing diagram from an earlier class that might help me set up
+    my physical pieces?  (Check the Moodle and
+    [GitHub](https://github.com/peplin/electronics-and-programming-class)
+    website and the links at the bottom of this page!)
+1. Is there a breadboard schematic or code example  in the [sensor
+   list](https://github.com/peplin/electronics-and-programming-class/blob/master/6/README.mkd#project-starter-ideas)
+   that will help me get something working?
+1. Do I have all the standard pieces of Arduino code in my program?  (variables
+    at the top, setup function, loop function)
+1. Am I doing input (reading from the device) or output (telling it to do
+    something)?  Analog (many different values) or digital (high / low or on /
+    off)?
+1. Is my input giving the code the values I think it is? (Try using the Serial
+   monitor to manually check that the numbers are correct)
+1. Is there a piece of code from an earlier class that might help me? (Check my
+    own code stored on Google drive and the course websites!)
+1. Have I commented out all the parts of my program I don't want to work on to
+    make sure the piece of code I'm working on is right?
+1. Could a friend or neighbor help me?
+
+## Useful Resources
+
+* Check out the [code syntax
+  examples](https://github.com/peplin/electronics-and-programming-class/blob/master/1/syntax_example.c)
+  if you forget where the curly braces, parenthesis, and semicolons go
+* Look at the [list of all the
+  sensors](https://github.com/peplin/electronics-and-programming-class/blob/master/6/README.mkd#project-starter-ideas)
+  we learned, with links to the code to remind yourself how they work
+* Remember how to [add and blink and LED on the
+  breadboard](http://learn.adafruit.com/adafruit-arduino-lesson-2-leds)
+* Remember how to [hook up and change the color of the RGB LED](http://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds)
+* Remember [all of the different sensors](https://github.com/peplin/electronics-and-programming-class/tree/master/6#project-starter-ideas) we learned how to use
+* Remember how to [control and LED from an analog input](https://github.com/peplin/electronics-and-programming-class/blob/master/4/forcesensor_to_led/forcesensor_to_led.ino)
+* Remember how to [make a function](https://github.com/peplin/electronics-and-programming-class/blob/master/4/2-function.c) to avoid writing the same code over and over again
+* Remember how to [use a loop](https://github.com/peplin/electronics-and-programming-class/blob/master/4/3-loop.c) to make something happen a bunch of times in a row
+* Remember how to [control an LED with a button](http://learn.adafruit.com/adafruit-arduino-lesson-6-digital-inputs)

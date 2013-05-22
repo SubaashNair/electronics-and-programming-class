@@ -3,8 +3,6 @@ Lesson 6
 
 Goal: Add a DC motor to another PWM pin and make something move.
 
-Goal: Add a DC motor to another PWM pin and make something move.
-
 The students should understand how to drive a motor.
 
 Goal: Decide on a final project idea and double-check with instructor.
@@ -26,17 +24,34 @@ Goal: Decide on a final project idea and double-check with instructor.
 Available sensors and input:
 
 * Light sensor (photocell)
+  * [Fritzing breadboard schematic](https://github.com/peplin/electronics-and-programming-class/raw/master/5/light-sensor.fzz)
+  * [Arduino code](https://github.com/peplin/electronics-and-programming-class/blob/master/5/lightsensor_to_led/lightsensor_to_led.ino)
 * Variable resistor
+  * [Fritzing breadboard schematic](https://github.com/peplin/electronics-and-programming-class/raw/master/4/variable-resistor.fzz)
+  * [Arduino code](the://github.com/peplin/electronics-and-programming-class/blob/master/4/forcesensor/forcesensor.ino)
 * Pressure sensor
+  * [Fritzing breadboard schematic](https://github.com/peplin/electronics-and-programming-class/raw/master/4/force-sensor.fzz)
+  * Arduino code - it's the same as the variable resistor, just make sure you're
+    reading the right analog input pin!
 * Button(s)
+  * [Arudino code](https://github.com/peplin/electronics-and-programming-class/blob/master/4/readbutton.ino)
 * Input from Serial Monitor (type commands on the computer)
 
 Available actuators:
 
 * DC motor - good for vibration, fast spinning, not very accurate
+  * [Fritzing breadboard
+    schematic](https://github.com/peplin/electronics-and-programming-class/raw/master/6/dcmotor.fzz)
+  * Arduino code - use `analogWrite` to set the speed of the motor from 0 to 255.
 * Servo - good for precise control, not continuous rotation
+  * [Fritzing schematic](https://github.com/peplin/electronics-and-programming-class/raw/master/5/servo-and-variable-resistor.fzz)
+  * Arduino code - use `analogWrite` to set the angle of the servo arm from 0 to 255
 * RGB LED
+  * [Fritzing breadboard
+    schematic](https://github.com/peplin/electronics-and-programming-class/raw/master/3/4-rgb-led.fzz)
+  * [Arduino Code](https://github.com/peplin/electronics-and-programming-class/blob/master/3/rgbled/rgbled.ino)
 * Green or Red LEDs
+  * [Fritzing breadboard schematic](https://github.com/peplin/electronics-and-programming-class/raw/master/2/2-external-led.fzz)
 * Bonus items - shift register, to control more LEDs than digital outputs
 
 **Project Ideas**
