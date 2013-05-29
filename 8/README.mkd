@@ -1,5 +1,36 @@
 Lesson 8
 ========
 
-Goal: Finalize projects (1.5 hours) and then give 3 minute demo in front of the
-group (1 hour).
+Goal: Finalize projects (1.5 hours) and then give a 3-5 minute demo in front of
+the group (1 hour).
+
+## Project Demo
+
+The students should finalize their projects and present them to the class with
+the following format:
+
+* What did you build (1 sentence)?
+* What are the inputs?
+* What are the outputs?
+* Walk us through your main loop function verbally (3-4 sentences for most)
+* If you had more time to work on this, what would you add?
+
+## Take Home
+
+
+* One Arduino Uno and USB cable
+* One breadboard
+* 9 short jumper wires + 2 longer wires (I think, looking at the #s in the kits
+  we got and dividing by the 20 kits worth of supplies we ordered)
+* 1 Potentiometer
+* 2 push buttons
+* 3 green LEDs
+* 3 red LEDs
+* 1 RGB LED
+* 1 photocell
+* 9 220 kOhm resisters (1 for each LED)
+* 1 10k ohm resistor (for the force sensor)
+* 1 DC Motor
+* 1 transistor
+* 1 diode
+* 1 strip of foam
