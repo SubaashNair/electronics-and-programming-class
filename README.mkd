@@ -52,6 +52,10 @@ As a shared class resource:
 * [Wire strippers](https://www.sparkfun.com/products/8696)
 * 10 [Micro-servos](https://www.sparkfun.com/products/9065)
 
+As of April 2013, the total total cost for each student is around $50. Ideally,
+each student is able to take home their Arduino and all of the components they
+learned about.
+
 ## Contributors
 
 * Chris Peplin
