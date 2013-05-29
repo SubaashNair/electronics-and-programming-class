@@ -17,3 +17,11 @@ Electronics and Programming Enrichment
 
 * Chris Peplin
 * Emily Van Ark
+
+## Licenses
+
+This code in this repository is licensed under the BSD license and is Copyright
+2013, Christopher Peplin.
+
+All other content and documentation is made available under the Creative Commons
+Attribution 3.0 License, Copyright 2013, Christopher Peplin and Emily Van Ark.
