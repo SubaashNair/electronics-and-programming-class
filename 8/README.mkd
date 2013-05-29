@@ -17,11 +17,10 @@ the following format:
 
 ## Take Home
 
-
 * One Arduino Uno and USB cable
 * One breadboard
-* 9 short jumper wires + 2 longer wires (I think, looking at the #s in the kits
-  we got and dividing by the 20 kits worth of supplies we ordered)
+* 9 short jumper wires i
+* 2 alligator clip wires
 * 1 Potentiometer
 * 2 push buttons
 * 3 green LEDs

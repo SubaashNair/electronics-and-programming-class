@@ -13,6 +13,45 @@ Electronics and Programming Enrichment
 * [Arduino](http://arduino.cc/en/main/software)
 * [Fritzing](http://fritzing.org)
 
+## Hardware Required
+
+For each student in the class (plus a few extra for buffer):
+
+* [Arduino
+  Uno](http://www.amazon.com/Arduino-UNO-board-DIP-ATmega328P/dp/B006H06TVG/ref=sr_1_1?s=electronics&ie=UTF8&qid=1364051166&sr=1-1&keywords=arduino+uno)
+* [USB-B
+  cable](http://www.monoprice.com/products/product.asp?c_id=103&cp_id=10303&cs_id=1030301&p_id=5438&seq=1&format=2
+  )
+* [Mini-breadboard](https://www.adafruit.com/products/64)
+* 10 2-5" [jumper wires](https://www.adafruit.com/products/153) (a range of lengths is good)
+* 3 [alligator clip wires](https://www.sparkfun.com/products/11037)
+* 1 [potentiometer](https://www.sparkfun.com/products/9939)
+* 2 breadboard compatible [push buttons](https://www.sparkfun.com/products/97)
+* 3 [green
+  LEDs](http://www.digikey.com/product-detail/en/LTL-1CHG/160-1710-ND/670002)
+* 3 [red
+  LEDs](http://www.digikey.com/product-detail/en/LTL-1CHE/160-1708-ND/670000)
+* 1 [RGB LED](https://www.sparkfun.com/products/9264)
+* 1
+  [photocell](http://www.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=PDV-P8103-ND)
+* 9 [220 ohm
+  resistors](http://www.digikey.com/product-detail/en/CF14JT220R/CF14JT220RCT-ND/1830334) (1 for each LED)
+* 2 10k ohm resistor (for the force sensor and photocell)
+* 1 small [DC Motor](http://www.adafruit.com/products/711)
+* 1 transistor
+* 1 diode
+* 1 2" x 2" square of [conductive
+  foam](http://www.amazon.com/Techni-Stat-Foam-Conductive-High-Density/dp/B0019V3C68/ref=sr_1_1?ie=UTF8&qid=1364052345&sr=8-1&keywords=conductive+foam))
+
+As a shared class resource:
+
+* 20 [shift
+  registers](http://www.digikey.com/product-detail/en/SN74HC595N/296-1600-5-ND/277246)
+* [Bulk resistor pack](https://www.sparkfun.com/products/10969)
+* [Bulk wire](https://www.sparkfun.com/products/11367)
+* [Wire strippers](https://www.sparkfun.com/products/8696)
+* 10 [Micro-servos](https://www.sparkfun.com/products/9065)
+
 ## Contributors
 
 * Chris Peplin
